@@ -98,6 +98,6 @@ class CheckoutServiceTest {
         CartItem cartItem = CartItem.builder().cartItemId(CART_ITEM_ID).productQty(PRODUCT_QTY).product(product)
                 .discountApplied(getDiscount()).grandDiscount(GRAND_DISCOUNT).grandCost(GRAND_COST).build();
         cartItemsMap.put(PRODUCT_ID,cartItem);
-        return Cart.builder().userId(USER_ID).cartValue(CART_VALUE).cartId(CART_ID).cartItemMap(cartItemsMap).totalDiscount(TOTAL_DISCOUNT).build();
+        return Cart.builder().userId(USER_ID).cartId(CART_ID).cartItemMap(cartItemsMap).build();
     }
 }
