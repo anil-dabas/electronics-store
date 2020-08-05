@@ -1,8 +1,8 @@
-#Electronics Store
+# Electronics Store
 
 This is a electronic store with basic functionality as below 
 
-##Store owner:
+## Store owner:
 - Create a new product
 - Amend the price/description of a product
 - Remove a product
@@ -10,7 +10,7 @@ This is a electronic store with basic functionality as below
 - Apply bundle deals (eg buy 1 laptop, get a mouse for free)
 
 
-##Checkout:
+## Checkout:
 - Add product to basket
 - Amend quantity of product in a basket
 - Remove product from basket
