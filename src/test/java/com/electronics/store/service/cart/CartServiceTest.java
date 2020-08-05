@@ -62,7 +62,7 @@ class CartServiceTest {
     }
 
     @Test
-    void addToCart() throws ProductNotFoundException, NoSuchProductInStore, InsufficientQuantityException, NoSuchCartExist {
+    void addToCart() throws ProductNotFoundException, NoSuchProductInStore, InsufficientQuantityException {
         Product product = getProduct();
         InventoryItem inventoryItem = getInventoryItem();
         ProductDiscount productDiscount = getProductDiscount();
@@ -80,10 +80,6 @@ class CartServiceTest {
         assertEquals(cart.getCartValue(),CART_VALUE);
     }
 
-
-    @Test
-    void removeFromCart() {
-    }
 
     @Test
     void getCartItems() throws NoSuchCartExist {

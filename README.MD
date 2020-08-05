@@ -8,6 +8,8 @@ This is a electronic store with basic functionality as below
 - Remove a product
 - Apply discount deals for products (eg buy 1 get 50% off the second)
 - Apply bundle deals (eg buy 1 laptop, get a mouse for free)
+
+
 ##Checkout:
 - Add product to basket
 - Amend quantity of product in a basket
